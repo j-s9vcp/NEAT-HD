@@ -1,0 +1,2 @@
+If the run is suspended, the subsequent run should be started from the next iteration.
+In other words, files (i.e., gen_0001.obj) should be deleted in that iter file (i.e., iter_1). 
