@@ -101,8 +101,7 @@ class CartPoleSwingUpEnv(gym.Env):
 
         return (x, x_dot, theta, theta_dot)
 
-    def step(self, action, gen, sp_count):
-        run_type = 'dynamic'
+    def step(self, action, gen, sp_count, run_type):
 
         # Valid action
         action = np.clip(action, -1.0, 1.0)[0]
