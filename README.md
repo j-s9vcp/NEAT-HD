@@ -13,7 +13,8 @@ python neat_train.py -p/swingup.json -n 3 -o log/history_hyb -t1 dynamic -t2 hyb
 ```
 
 ## Visualization
-to see the figures in the context, ckeck .ipynb file.
+Ckeck out `hyb_model_demo.ipynb` to see the figures in the context.
+
 
 ## Note 
 the code for hybridization model is only implemented in swingup task.
