@@ -12,5 +12,8 @@ To run hybridization model,
 python neat_train.py -p/swingup.json -n 3 -o log/history_hyb -t1 dynamic -t2 hybrid
 ```
 
+## Visualization
+to see the figures in the context, ckeck .ipynb file.
+
 ## Note 
 the code for hybridization model is only implemented in swingup task.
