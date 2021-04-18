@@ -12,9 +12,9 @@ To run hybridization model,
 python neat_train.py -p/swingup.json -n 3 -o log/history_hyb -t1 dynamic -t2 hybrid
 ```
 
-`-n`:  the number of workers
-`-o`:  output directory
-`-t1`:  static or dynamic
+`-n`:  the number of workers,
+`-o`:  output directory,
+`-t1`:  static or dynamic,
 `-t2`:  normal or hybridization
 
 ## Visualization
